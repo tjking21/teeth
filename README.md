@@ -51,12 +51,7 @@ app.controller('vitalsCtrl', function($scope) {
  
 angular.module('SurfaceController', [])
     .controller('SurfaceController', ['$scope', function($scope) {
-      $scope.checkboxModel = {
-       value1 : true,
-       value2 : true,
-       value3 : true,
-       value4 : true,
-       value5 : true,
+      $scope.checkboxModel =""
      };
     }]);
  
